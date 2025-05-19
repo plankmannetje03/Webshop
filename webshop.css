@@ -1,0 +1,102 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+html, body {
+    min-height: 100vh;
+    }
+html {
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+}
+    
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-size: 2rem;
+
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(to right,#C0C0C0,#A9A9A9,#808080,#696969)
+
+}
+
+.Products{
+  grid-template-columns: repeat(3, auto); 
+  justify-content: center;
+  padding-bottom: 4rem;
+  align-items: center;
+  gap: 20rem;
+}
+
+.Product_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    min-height:calc(100vh -  8rem);
+    padding: 22.5px;
+}
+
+.Products_item{
+    width: 40rem;
+    gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    box-shadow: 0 0 5px 0 black;
+    background: white;
+    box-shadow: 0px 1rem 2rem 0px rgba(0,0,0,0.2)
+}
+.header_webshop{
+background-color: white;
+text-align: right;
+height: 4rem;
+}
+
+.footer_webshop{
+text-align: center;
+width: 100vw;
+height: 4rem;
+position: fixed;
+bottom: 0;
+font-family: sans-serif;
+background-color: white;
+}
+
+.Article_img{
+    height: 17rem;
+
+}
+
+
+
+.Article_text{
+    gap: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.Button_Add_to_cart{
+    background-color: black;
+    border-radius: 1rem;
+    font-family: sans-serif;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+}
+
+
+
+
+
+
